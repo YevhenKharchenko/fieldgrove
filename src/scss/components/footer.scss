@@ -1,0 +1,118 @@
+.footer {
+  background: #3d1506;
+  padding-top: 48px;
+  padding-bottom: 16px;
+
+  @include media(desktop) {
+    padding-top: 77px;
+    padding-bottom: 77px;
+  }
+}
+
+.footer-container {
+  @include media(desktop) {
+  }
+}
+
+.footer-content-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.footer-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 72px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+    order: 1;
+  }
+}
+
+.footer-logo-text {
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.1875;
+  color: #fffffd;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-nav {
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+    margin-bottom: 0;
+    order: 3;
+  }
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-list-item {
+  &:first-child {
+    position: relative;
+
+    &::after {
+      content: '|';
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.57143;
+      color: #f6e6bc;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -16px;
+    }
+  }
+
+  @include media(desktop) {
+    &:first-child {
+      &::after {
+      }
+    }
+  }
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.57143;
+  color: #f6e6bc;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-text {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.57143;
+  text-align: center;
+  color: #f6e6bc;
+
+  @include media(desktop) {
+    order: 2;
+  }
+}
