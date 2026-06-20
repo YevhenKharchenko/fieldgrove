@@ -1,29 +1,28 @@
-.features-section {
+.experience-section {
   @include media(desktop) {
   }
 }
 
-.features-bg-wrapper {
+.experience-bg-wrapper {
   padding-top: 48px;
-  padding-bottom: 48px;
+  padding-bottom: 72px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 
   @include media(desktop) {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 140px;
     max-width: 1440px;
   }
 }
 
-.features-container {
+.experience-container {
   @include media(desktop) {
   }
 }
 
-.features-title {
+.experience-title {
   margin-bottom: 8px;
 
   @include media(desktop) {
@@ -33,73 +32,83 @@
   }
 }
 
-.features-text {
+.experience-top-text {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
   color: #c8b98a;
-  margin-bottom: 76px;
+  margin-bottom: 68px;
+
+  @include media(desktop) {
+    margin-bottom: 108px;
+  }
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 
   @include media(desktop) {
   }
 }
 
-.features-swiper-container {
-  max-width: 241px;
+.experience-list-item {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  max-width: 295px;
+  min-height: 126px;
   margin-left: auto;
   margin-right: auto;
 
+  &:last-child {
+    min-height: 152px;
+  }
+
   @include media(desktop) {
-    max-width: 1440px;
+    max-width: 400px;
+    min-height: 100px;
+
+    &:last-child {
+      min-height: 128px;
+    }
   }
 }
 
-.features-swiper-container.show {
-  visibility: visible;
-}
-
-.features-swiper-wrapper {
-  @include media(desktop) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    max-width: 772px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.features-slide {
-  background: #4a7a35;
-  border-radius: 8px;
-  padding: 24px 26px 14px;
-  display: flex !important;
+.experience-item-icon-wrapper {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
-  max-width: 241px;
-  min-height: 267px;
+  gap: 6px;
 
-  @include media(desktop) {
-    width: 100% !important;
-  }
-}
-
-.features-img {
   @include media(desktop) {
   }
 }
 
-.features-item-text {
+.experience-icon {
+  min-width: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.experience-item-line {
+  background: #3d8b2f;
+  min-width: 1px;
+  height: 68px;
+
+  @include media(desktop) {
+  }
+}
+
+.experience-item-text {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
-  text-align: center;
   color: #c8b98a;
 
   @include media(desktop) {

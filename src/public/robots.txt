@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://plaintrail.site/sitemap.xml
+Sitemap: https://fieldgrove.online/sitemap.xml
