@@ -1,5 +1,5 @@
 .context-menu {
-  background: #56200b;
+  background: #0d1b2a;
   display: none;
   justify-content: center;
   align-items: center;
@@ -29,15 +29,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .context-list-link {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #fffffd;
+  color: #f5eac8;
   display: flex;
   justify-content: center;
   align-items: center;

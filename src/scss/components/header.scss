@@ -1,5 +1,5 @@
 .header {
-  background: #56200b;
+  background: #0d1b2a;
   padding: 6px 0;
   position: fixed;
   width: 100%;
@@ -47,11 +47,11 @@
 
   @include media(desktop) {
     display: inline;
-    font-family: 'Fredoka One', sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 1.1875;
-    color: #fffffd;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.07692;
+    color: #f5eac8;
   }
 }
 
@@ -61,16 +61,16 @@
   @include media(desktop) {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
   }
 }
 
 .nav-list-link {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #fffffd;
+  color: #f5eac8;
   display: flex;
   justify-content: center;
   align-items: center;

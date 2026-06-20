@@ -3,52 +3,74 @@
     <div class="container hero-container">
       <div class="hero-content-wrapper">
         <div class="hero-text-wrapper">
-          <h1 class="hero-main-title">
-            Grove Plot — A Softer Kind of Puzzle Adventure
-          </h1>
+          <h1 class="hero-main-title">It Started as a Quiet Clearing</h1>
+          <ul class="hero-list">
+            <li class="hero-list-item">
+              <svg class="square-icon" width="18" height="18">
+                <use href="./img/sprite.svg#icon-square"></use>
+              </svg>
+              <p class="hero-item-text">
+                At first, there was nothing unusual about the grove.
+              </p>
+            </li>
+            <li class="hero-list-item">
+              <svg class="square-icon" width="18" height="18">
+                <use href="./img/sprite.svg#icon-square"></use>
+              </svg>
+              <p class="hero-item-text">
+                Just a small patch of land, soft light breaking through the
+                trees, and the sound of leaves moving somewhere above you.
+                Everything was weirdly quiet - like, unnaturally quiet. Then,
+                slowly, something began to change.
+              </p>
+            </li>
+            <li class="hero-list-item">
+              <svg class="square-icon" width="18" height="18">
+                <use href="./img/sprite.svg#icon-square"></use>
+              </svg>
+              <p class="hero-item-text">
+                Colors appeared where there were none before. Shapes started
+                forming patterns. Fruits, crystals, strange glowing pieces — all
+                waiting to be moved, matched, understood.
+              </p>
+            </li>
+            <li class="hero-list-item">
+              <svg class="square-icon" width="18" height="18">
+                <use href="./img/sprite.svg#icon-square"></use>
+              </svg>
+              <p class="hero-item-text">
+                The forest didn’t speak. But it was clearly asking something
+                from you.
+              </p>
+            </li>
+          </ul>
           <a
             class="hero-cta-link"
-            href="https://play.google.com/store/apps/details?id=inc.series.twimly2&hl=en&gl=us"
+            href="https://play.google.com/store/apps/details?id=com.nodemtech.forestgrovematch3puzzle&hl=en&gl=us"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Download on Google Play"
             >Play Now</a
           >
         </div>
-        <div class="hero-bottom-wrapper">
-          <ul class="hero-list">
-            <li class="hero-list-item">
-              <p class="hero-item-text">Version 1.0.3.3</p>
-              <img
-                class="hero-star-img"
-                src="./img/hero/hero-star.png"
-                alt="Star"
-                width="18"
-                height="18"
-              />
-            </li>
-            <li class="hero-list-item">
-              <p class="hero-item-text">Updated Mar 18, 2026</p>
-              <img
-                class="hero-star-img"
-                src="./img/hero/hero-star.png"
-                alt="Star"
-                width="18"
-                height="18"
-              />
-            </li>
-            <li class="hero-list-item">
-              <p class="hero-item-text">Android 7.0+</p>
-              <img
-                class="hero-star-img"
-                src="./img/hero/hero-star.png"
-                alt="Star"
-                width="18"
-                height="18"
-              />
-            </li>
-          </ul>
-        </div>
+        <picture>
+          <source
+            srcset="./img/hero/hero-img-desk.png"
+            media="(min-width: 1440px)"
+            width="593"
+            height="416" />
+          <source
+            srcset="./img/hero/hero-img-mob.png"
+            width="343"
+            height="241" />
+          <img
+            class="hero-img"
+            src="./img/hero/hero-img-mob.png"
+            alt="Screenshot of the game"
+            width="343"
+            height="241"
+            loading="lazy"
+        /></picture>
       </div>
     </div>
   </div>
