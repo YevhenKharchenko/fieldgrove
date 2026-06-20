@@ -1,0 +1,2 @@
+import"./assets/header-363ca8f8.js";import{S as e}from"./assets/vendor-89c56180.js";new e(".features-swiper-container",{direction:"horizontal",loop:!1,centeredSlides:!0,slidesPerView:1,slidesPerGroup:1,initialSlide:0,spaceBetween:12,speed:500,allowTouchMove:!0,grabCursor:!0,breakpoints:{1440:{slidesPerView:6,spaceBetween:0,centeredSlides:!1,allowTouchMove:!1,grabCursor:!1}},on:{init(r){document.querySelector(".features-swiper-container").classList.add("show")}}});
+//# sourceMappingURL=commonHelpers3.js.map
